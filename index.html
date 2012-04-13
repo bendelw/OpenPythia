@@ -1,1 +1,670 @@
-Welcome
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+        <title>OpenPythia</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+        <!-- Other scripts -->
+        <script src="scripts/jquery-1.7.min.js" type="text/javascript"></script>
+
+        <script src="scripts/jquery.scrollTo-1.3.3-min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.localScroll-1.2.5-min.js" type="text/javascript"></script>
+        <script src="scripts/jquery.serialScroll-1.2.1-min.js" type="text/javascript"></script>
+
+        <script src="scripts/index.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+
+        <a class="scrollMark" name="top"></a>
+        <a class="scrollMark" name="welcome"></a>
+
+
+        <div id="slider">
+
+            <div class="clean" id="page">
+                <div class="position_content" id="page_position_content">
+                    <div class="clean colelem navigation" id="header">
+                        <div class="clean top topNavi" id="home_logo">
+                            <p><a href="#welcome">OpenPythia</a></p>
+                        </div>
+                        <div class="clean top topNavi txln" id="t0">
+                            <p><a id="lnrun" href="#run">run it</a></p>
+                        </div>
+                        <div class="clean top topNavi txln" id="t1">
+                            <p><a id="lnpros" href="#pros">for professionals</a></p>
+                        </div>
+                        <div class="clean top topNavi txln" id="t2">
+                            <p><a id="lnspread" href="#spread">spread the word</a></p>
+                        </div>
+                        <div class="clean top topNavi txln" id="t3">
+                            <p><a id="lninfo" href="#info">more info</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- header ends here -->
+            <!-- content start here -->
+
+
+            <div class="scroll">
+                <div class="scrollContainer">
+                    <div class="blogroll">
+                        <div id="welcomeText" class="section">
+                            <h1>Unleash Top Performance Of Your Oracle Database</h1>
+                            OpenPythia helps you to find bottlenecks in your database. Have your 
+                            tables and table access analyzed to find out how to improve performance at no 
+                            cost. It is powerful and OpenSource.<br/>
+
+                            <h2>The meaning of Oracle performance</h2>
+                            Databases 
+                            are todays backbones of our information age. These face two 
+                            main threats: a lack of performance and increasingly complex operations. As 
+                            the volume of our 
+                            information grows our databases are getting ever slower. The second is 
+                            our thirst for knowledge. As our information grows it becomes more and 
+                            more complex to gain knowledge out of it. Not only do we accumulate more 
+                            information, but we also seek to answer more complex questions. 
+                            OpenPythia 
+                            helps you to turn the tables again. It is free for anyone &ndash; free 
+                            to use and free to contribute to. Use it 
+                            <em>at no risk: </em>
+                            OpenPythia does not interfere with any data. If you need external advice 
+                            you can export your test results: no business data will be submitted. 
+                            The entire report consists of a single Excel sheet &ndash; easy to read; easy to 
+                            change.
+
+                            <h3>Optimizing for the better</h3>
+                            Many information systems are getting slower and slower over time. Way too 
+                            often this is encountered by upgrading hardware or upscaling existing virtual 
+                            machines. Yet most of the time the true problem is SQL statements are working, 
+							but poorly constructed. Submitted to your database it takes a quiet longer time 
+							than necessary. The vast 
+                            majority of Oracle databases have potential to improve performance at no 
+                            more cost. OpenPythia helps you to unleash this hidden performance. So 
+                            you save money on new hardware and superior licenses for VMs or 
+                            databases as well. If you want to know your potential performance 
+                            improvements take OpenPythia out for a testdrive and have your result 
+                            in a few minutes. Your effort is very little. Anyway think of letting some 
+							time pass between your two snapshots.
+
+                        </div>
+
+                        <div id="run" class="section">
+                            <a class="scrollMark" name="run"></a>
+                                                        
+                            <h1>Get OpenPythia up and running</h1>
+                            To get started with OpenPythia is easy: just 
+                            download our latest code from <a target="_blank" 
+                            href="http://github.com/AndreasRothmann/OpenPythia.git">GitHub</a> 
+                            and execute the JAR file. All you need is this JAR and 
+                            an adequate JDBC driver. 
+                            If you like to have the code to check on our application 
+                            and contribute some code please continue reading the next 
+                            section. Either case: we were happy to receive some 
+                            feedback. If you just want to get OpenPythia running get the 
+							<a target="_blank" 
+                            href="http://github.com/AndreasRothmann/OpenPythia.git">code here.</a> 
+							Have a glimpse at #3 helps you to connect to the database. If you 
+							just want to try out OpenPythia as a software product have a 
+							look here: <a target="_blank" 
+							href="https://github.com/downloads/AndreasRothmann/OpenPythia/OpenPythia_.jar">download OpenPythia.jar</a>.
+                            
+                            
+                            <h1>Get OpenPythia's source code started</h1>
+                            Getting started with OpenPythia is easy. In three simple steps you are 
+                            about to discover bottlenecks in your Oracle database. First we make our OS 
+							and/or IDE ready for Git, then we get our code, and last but not least we 
+							connect to our Oracle dataase.
+							<noscript>
+                            You're showed both IDE's Eclipse trailing NetBeans following. 
+                            With JavaScript enabled you're showed relevant data only and 
+                            images are properly sized.
+                            </noscript>
+
+                            <span id="selectIDE" style="display: hidden">
+                                <br />Which IDE do you use?<br />
+                                <label for="eclipse"><input type="checkbox" name="ide" id="eclipseIDE" 
+                                                            checked value="eclipseIDE" onclick="changeIDE()" />
+                                    <span id="IDElabelEC">Eclipse</span></label>
+                                <label for="netbeans"><input type="checkbox" name="ide" id="netbeansIDE" 
+                                                             checked value="netbeansIDE" onchange="changeIDE()" />
+                                    <span id="IDElabelNB">NetBeans</span></label>
+                            </span>
+
+
+                            <h2>#1 Install the code</h2>
+
+                            <!-- #1 ec -->
+                            <div class="ec">
+                                <a name="ec1"></a>
+                                <h3>In Eclipse</h3>
+
+                                <h4>Get Git on your OS</h4>
+
+                                Unfortunately Eclipse cannot checkout projects in Git 
+                                for now. Therefore you have to handle Git versions in your OS and make Eclipse run 
+                                like a locally handled project. But: you can push and pull existing projects in 
+                                Eclipse nevertheless &ndash; just put this project under version control if you 
+                                like to. <br />
+
+                                Just get your favorite Git daemon and then choosen a GUI software as well. 
+                                Here are some suggestions:
+
+                                <br /><em>Backend:</em>
+                                <p class="code">
+                                    All OS: <a href="http://git-scm.com/" target="_blank">Git-SCM: http://git-scm.com/</a><br />
+                                </p>
+                                
+                                <em>Frontends:</em>
+                                
+                                <p class="code">
+                                    Mac: <a href="http://mac.github.com/" target="_blank">GitHub for Mac: http://mac.github.com/</a><br />
+                                    Windows: <a href="http://code.google.com/p/tortoisegit/" target="_blank">TortoiseGit: http://code.google.com/p/tortoisegit/</a><br />
+                                </p>
+
+                                The first step is to download your favorite Git software.
+                                
+                                
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec01.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec02.jpg" class="manualthumb" />
+								</p>
+									
+								Then install your software locally.
+								
+                                <p class="manualgallery">
+									<img lowsrc="image/loading.gif" src="image/manual/ec03.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec04.jpg" class="manualthumb" /><br/>
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec05.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec06.jpg" class="manualthumb" />
+                                </p>
+                                
+                                After installing make sure to <em>check out /
+                                    pull</em> OpenPythia to your local drive. You will need this location for <em>updates / 
+                                    pulls</em> and to <em>contribute code / push it</em> up to github again.
+                                    <br />
+                                    
+                                When checking out code make sure to use this repository:
+                                <p class="code">
+                                    <a href="http://github.com/AndreasRothmann/OpenPythia.git">
+                                        http://github.com/AndreasRothmann/OpenPythia.git</a><br/>
+                                </p>
+                                
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec09.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec10.jpg" class="manualthumb" />
+                                </p>
+
+
+                                <h4>Get the code in there</h4>
+
+                                Start Eclipse 
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec17.jpg" class="manualthumb" />
+                                </p>
+								
+								 and <hi>create a new Java project</hi>. Name it <em>OpenPythia</em> and 
+                                hit <hi>finish</hi>.
+								
+								<p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec18.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec19.jpg" class="manualthumb" />
+                                </p>
+
+                                Then drag the files from your locally <em>pulled clone</em> to your Eclipse project. 
+                                Say you'd like to <em>copy them</em> and proceed. 
+
+                            </div>
+                            <!-- end #1 ec -->
+
+
+                            <!-- #1 nb -->
+                            <div class="nb">
+                                <a name="nb1"></a>
+                                <h3>In NetBeans</h3>
+                                <h4>Get ready for git</h4>
+
+                                If you decided for the latest NetBeans you're ready for git out of the box. 
+                                If you're with an older version please install git: click <hi>Tools, Plugins</hi> 
+                                and find <hi>Git and hit install</hi>. If you had to install 
+                                the plugin you have to restart your IDE to make changes take effect.<br/>
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb01.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb02.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb03.jpg" class="manualthumb" />
+                                </p>
+
+                                <h4>Get the code</h4>
+
+                                Now you're taken back to your IDE's default site. To download the 
+                                code go to the main menu and select <hi>Tools, Git, Clone</hi>. 
+                                Then insert the project location: 
+                                <em>https://git@github.com/AndreasRothmann/OpenPythia.git</em>, take 
+                                <em>git</em> as user name, and <hi>leave other fields blank.</hi>
+                                If you have a github account feel free to use it. Otherwise the 
+                                general open account for guests is named git.
+                                After that proceed to next. 
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb04.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb05.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb06.jpg" class="manualthumb" />
+                                </p>
+
+
+
+
+
+                                Then select <em>master*</em> branch, proceed to next and provide 
+                                a project folder as you like. In the fields the defaults shall be correct &ndash; 
+                                but you can change 'em if you'd like to. <hi>Clone name</hi> is the project's 
+                                name and <hi>remote name</hi> defines your personal naming for the selected 
+                                repository branch: keep this in mind if you differ this one. If you're done hit finish.
+
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb07.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb08.jpg" class="manualthumb" />
+                                </p>
+
+                                Now you're code is down on your machine. To make it work <hi>create a project</hi>
+                                and choose to make a <hi>Java project</hi> on the left and select <hi>Java project 
+                                    with existing sources</hi> on the right hand site. Go to next step provide any 
+                                project name and location. Make sure to use <hi>libraries folder</hi> as <em>./lib</em>.
+                                All other values shall be best by default. Proceed to next step.
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb09.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb10.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb11.jpg" class="manualthumb" />
+                                </p>
+
+                                Now select your files parent location. Go to next step. If the directory was 
+                                correct your list starts with some ressources <hi>*.png, an .xls, and an .html file</hi>.
+                                The other <hi>*.java and *.jdf files</hi> shall be all in <em>org/openpythia/</em>. 
+                                Now we're about to configure our code.
+
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb12.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb13.jpg" class="manualthumb" />
+                                </p>
+
+                                Go to the project, right click the header <em>OpenPythia and select
+                                    Properties</em>. Go to <em>Run</em> view and go to <em>Main Class, 
+                                    Browse</em> &ndash; you're shown exactly one class: take this one named 
+                                <hi>PythiaMain</hi>. Select this and say <em>OK</em> to the properties 
+                                dialog. Now you 
+                                got the code and a project ready to go. Let's get some missing libraries.
+
+                                <p class="manualgallery"> 
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb14.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb15.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb16.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb17.jpg" class="manualthumb" />
+                                </p>
+
+                            </div> 
+                            <!-- end #1 nb -->
+
+
+
+
+                            <h2>#2 Get the external libraries</h2>
+
+                            <!-- #2 ec -->
+                            <div class="ec">
+                                <a name="ec2"></a>
+                                <h3>In Eclipse</h3>
+                                <h4>Load the libraries down</h4>
+                                Now we need some downloads. Navigate with your browser to 
+
+                                <p class="code">
+                                    <a href="http://www.jgoodies.com/downloads/libraries.html" target="_blank">
+                                        http://www.jgoodies.com/downloads/libraries.html
+                                    </a>
+                                </p>
+
+                                and download the file <em>JGoodies Common and JGoodies Forms</em>.
+                                These libraries build the GUI.
+
+
+                                <p class="manualgallery"> 
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb18.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb19.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb20.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb21.jpg" class="manualthumb" />
+                                </p>
+
+
+                                Now we need some Excel-speaking and -reading JARs as well. Go to 
+
+                                <p class="code">
+                                    <a href="http://poi.apache.org/download.html#POI-3.7" target="_blank">
+                                        http://poi.apache.org/download.html#POI-3.7
+                                    </a>
+                                </p>
+
+                                and download both the files <em>poi-bin-*.zip</em> 
+                                or poi-bin-*.tar.gz. If you're indifferent take the <em>.zip</em> one.
+
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb22.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb23.jpg" class="manualthumb" />
+                                </p>
+
+
+                                Now extract all three downloaded files. Mind the location for import 
+                                into our project.
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb24.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb24.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb25.jpg" class="manualthumb" />
+                                </p>
+
+                                <h4>Assign them to your IDE</h4>
+
+                                Back in our Eclipse <hi>right click on the project, select <em>build path</em>, and click 
+                                    <em>add external ressources</em></hi>. In the next step choose all the extracted folders 
+                                and provide all the JARs in each root directory. 
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec23.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/ec24.jpg" class="manualthumb" />
+                                </p>
+                            </div>
+                            <!-- end #2 ec -->
+
+
+                            <!-- #2 nb -->
+                            <div class="nb">
+                                <a name="nb2"></a>
+                                <h3>In NetBeans</h3>
+                                <h4>Get the libraries down</h4>
+                                Now we need some downloads. Navigate with your browser to 
+
+                                <p class="code">
+                                    <a href="http://www.jgoodies.com/downloads/libraries.html" target="_blank">
+                                        http://www.jgoodies.com/downloads/libraries.html
+                                    </a>
+                                </p>
+
+                                and download the file <em>JGoodies Common and JGoodies Forms</em>.
+                                These libraries take care for the GUI building.
+
+
+                                <p class="manualgallery"> 
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb18.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb19.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb20.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb21.jpg" class="manualthumb" />
+                                </p>
+
+
+                                Now we need some Office-compatible JARs as well. Go to 
+
+                                <p class="code">
+                                    <a href="http://poi.apache.org/download.html#POI-3.7" target="_blank">
+                                        http://poi.apache.org/download.html#POI-3.7
+                                    </a>
+                                </p>
+
+                                and download both the files <em>poi-bin-*.zip</em> 
+                                or poi-bin-*.tar.gz. If you're indifferent take the <em>.zip</em> one.
+
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb22.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb23.jpg" class="manualthumb" />
+                                </p>
+
+
+                                Now extract all three downloaded files. Mind the location for import 
+                                into our project.
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb24.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb24.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb25.jpg" class="manualthumb" />
+                                </p>
+
+                                <h4>Assign them to your IDE</h4>
+
+                                Back in our NetBeans go to the project's <hi>library</hi> section down 
+                                there, <hi>right click it, and select <em>Add JAR / Folder</em></hi>. 
+                                Now from the extracted content select <hi>each JAR in each root directory 
+                                </hi>. Do this for all three libraries. You should see all three JARs in 
+                                the project's libraries after this step. 
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb26.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb27.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb28.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb29.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb30.jpg" class="manualthumb" />
+                                </p>
+
+                            </div>
+                            <!-- end #2 nb -->
+
+
+                            <h2>#3 Run + connect</h2>
+
+
+                            <!-- #3 nb -->
+                            <div class="ec nb">
+                                <a name="nb3"></a>
+                                <a name="ec3"></a>
+
+                                <h3>In Eclipse + NetBeans</h3>
+                                <h4>Got a JDBC driver?</h4>
+                                Now we're done and we can run our project for the first time. 
+                                Now run the project.
+                                Right click the main project; in Eclipse choose 
+                                <em>Run as, Java Application</em>; in NetBeans 
+                                choose <em>Run</em>. 
+                                The main window appears. When starting OpenPythia for the first 
+								time it will most likely ask for your JDBC driver &ndash; unless 
+								you have the right driver in your classpath.
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb31.jpg" class="manualthumb" />
+                                </p>
+
+                                If you got none let's go 'n get it from the Oracle site:
+
+                                <p class="code">
+                                    <a href="http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html" 
+                                       target="_new">http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html</a>
+                                </p>
+
+                                Make sure to <hi>accept the license agreement</hi> and  
+                                <hi>login to your account or create a new one</hi>. 
+                                Download the fitting JDBC driver for your database. 
+                                If in doubt take the latest one: nowadays we took <em>jdbc6_g.jar</em>. 
+
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb32.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb33.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb34.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb35.jpg" class="manualthumb" />
+                                </p>
+
+                                <h4>Connect to your Oracle database</h4>
+
+                                Now provide OpenPythia with your JDBC driver by <hi>clicking 
+                                    <em>Load JDBC driver</em></hi>. 
+                                <p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb31.jpg" class="manualthumb" />
+								</p>
+
+
+								If you provided it and proceeded OpenPythia will have taken you 
+                                to the login view. Here you can <hi>enter your login details</hi> step by 
+                                step 
+								
+								<p class="manualgallery">
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb36.jpg" class="manualthumb" />
+                                </p>
+								
+								and <hi>create an access script for OpenPythia</hi> to read 
+                                details from your database. Save this where ever you like to 
+                                to send it to your admins or run it on your Oracle system.								
+
+								<p class="manualgallery">
+									<img lowsrc="image/loading.gif" src="image/manual/nb37.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb38.jpg" class="manualthumb" />
+                                    <img lowsrc="image/loading.gif" src="image/manual/nb39.jpg" class="manualthumb" />
+								</p>
+								
+								The file is a default SQL file &ndash; if you open it you can check all statements submitted 
+								to your Oracle database.
+								
+								<p class="manualgallery">
+									<img lowsrc="image/loading.gif" src="image/manual/ecx03.jpg" class="manualthumb" />
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end #3 nb -->
+
+
+                        <div id="pros" class="section">
+                            <a class="scrollMark" name="pros"></a>
+                            <h1>For Professionals</h1>
+
+
+                            <h2>For DBAs</h2>
+
+
+                            <h3>OpenPythia is at your service</h3>
+                            For OpenPythia to run you will only need read privileges to the Data Dictionary 
+							and some performance relevant views. The software itself will 
+                            create the missing privileges script so you can send it over to 
+                            your DBA. And OpenPythia being completely open source it does what you 
+                            expect it to do &ndash; no more and no less. Feel free to check the code 
+                            and to contribute some missing features. You can make this software even 
+                            better by providing us with feedback and missing functionality.
+
+
+                            <h2>For software developers</h2>
+                            OpenPythia gives you all the insights to bootstrap your applications. Find your 
+							worst statements and remove the bottlenecks slowing down your entire system. 
+							During development mistakes may occur: sometimes queries are submitted 
+                            twice or multiple times instead of once. Rather more often queries are hardly 
+                            efficient. OpenPythia lets you see your application from the DBA's point of view. 
+                            To help you to avoid problems, fix errors, and speed up your software. 
+                            OpenPythia is born to be easy: click a button to get your schema generation 
+                            script. The database will be prepared to support OpenPythia and gives you 
+                            an easy access to your database. Just send the script to your DBA or run it 
+                            in your database. With only this you're ready to go. 
+
+                        </div>
+
+
+
+                        <div id="spread" class="section">
+                            <a class="scrollMark" name="spread"></a>
+                            <h1>Spread The Word</h1>
+
+                            <h2>What kind of contribution to make?</h2>
+                            If OpenPythia worked for you we would like to hear from you. If it doesn't 
+                            we want to hear it as well. For us developers it is essential to get your 
+                            feedback &ndash; so we can make the very next version even better for you: 
+                            our users. If there's something to improve just write us an email. Our contact info 
+                            is given in the <a class="link" href="#info">info section.</a> If you think OpenPythia 
+                            is a great tool you can write to us as well. If you think this can even 
+                            help others please spread the word via your favorite communications channel. 
+                            Just share the link to 
+                            <em><nobr><a class="link" href="http://www.github.com/AndreasRothmann/OpenPythia">
+                                        www.github.com/AndreasRothmann/OpenPythia</a></nobr></em>. 
+                            This is very important to us. Thanks.
+
+                            <!-- content ends here -->
+                            <!-- footer starts here -->
+                        </div>
+
+                    </div>
+
+
+                    <div id="info" class="section">
+                        <a class="scrollMark" name="info"></a>
+                        <h1>More info</h1>
+
+                        <div class="footer">
+                            <table id="footerTable">
+                                <tr class="header"><td colspan="2">
+                                        OpenPythia Team
+                                    </td></tr>
+                                <tr><td>
+                                        Project manager
+                                    </td><td>
+                                        Andreas Rothmann
+                                    </td></tr>
+                                <tr><td>
+                                        Developer
+                                    </td><td>
+                                        Daniel Schulz
+                                    </td></tr>
+
+                                <tr class="header">
+                                    <td colspan="2">Thanks to</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        our main sponsor
+                                    </td>
+                                    <td>
+                                        msg systems ag<unem>, department of Travel &amp; Logistics</unem>
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Special thanks to
+                                    </td>
+                                    <td>
+                                        Dr. Thomas Kunstmann<br/>
+                                        Peter Kretz<br/>
+                                        Ralf Engelschall
+                                    </td>
+                                </tr>
+
+                                <tr class="header">
+                                    <td colspan="2">more info</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        legal info
+                                    </td>
+                                    <td>
+                                        <a class="link" href="#bottom">www.github.com/AndreasRothmann/legal.html</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        license info
+                                    </td>
+                                    <td>
+                                        <a class="link" href="#bottom">www.github.com/AndreasRothmann/licence.html</a>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                    <a name="bottom"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

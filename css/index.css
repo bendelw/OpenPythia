@@ -1,0 +1,594 @@
+html, body
+{
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    padding-bottom: 64px;
+    margin-top: -100px;
+}
+
+a.scrollMark {
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    font-family: inherit;
+    color: #7E7E7E;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #3E3E3E;
+}
+
+a.link, a.link:link, a.link:visited, a.link:active {
+    font-family: inherit;
+    color: #0077EE;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#slider a.tiny, #slider a.tiny:link, #slider a.tiny:hover, 
+#slider a.tiny:active, #slider a.tiny:visited {
+    font-size: 12px;
+    font-family: inherit;
+    color: #EE0000;
+    text-decoration: none;
+    text-align: right;
+
+
+    width: 100px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    margin-top: 24px;
+}
+
+#home_logo p a:hover {
+    color: #EE0000;
+}
+
+#airportlikeTicker {
+    font-family: monospace, courier new, courier;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.blogroll br {
+    line-height: 50px;
+}
+
+hi {
+    font-style: inherit;
+    font-weight: inherit;
+    color: #EE0000;
+}
+
+div.footer {
+    z-index: 0;
+    width: 124px;
+    min-height: 30px;
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #3F3F3F;
+    position: relative;
+    margin-right: -124px;
+    left: 121px;
+}
+
+#footerTable {
+    width: 640px;
+}
+
+#footerTable tr td {
+    padding-left: 36px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    vertical-align: top;
+}
+
+#footerTable tr.header {
+    font-size: 20px;
+    color: #7E7E7E;
+    height: 56px;
+}
+
+#footerTable tr.header td {
+    vertical-align: bottom;
+}
+
+#footerTable tr.header td {
+    padding-left: 0px;
+}
+
+
+
+
+#header
+{
+    z-index: 2;
+    width: 9999px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 28px;
+    left: -200px;
+    
+    padding-bottom: 3px;
+    margin-top: -65px;
+
+    position: relative;
+
+    background: #F7F7F7 url("../image/index_u146_fr.png") repeat-x left top;
+}
+
+#header:before, #header:after {
+    content: "";
+    position: absolute;
+    background: #F7F7F7 url("../image/index_u146_fr.png") repeat-x left top;
+    top: 0;
+    bottom: 0;
+    width: 9999px;   /* some huge width */
+    z-index: 2;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 28px;
+    margin-bottom: -1px;
+}
+#header:before {
+    right: 100%;
+}
+#header:after {
+    left: 100%;
+}
+
+
+
+#page
+{
+    z-index: 1;
+    width: 960px;
+    min-height: 50px;
+    border-style: none;
+    background-color: #FFFFFF;
+    margin: 92px auto 43px;
+}
+
+#page_position_content
+{
+    margin-top: -95px;
+    margin-bottom: 62px;
+    position: fixed;
+    top: 90px;
+}
+
+#home_logo
+{
+    z-index: 81;
+    width: 124px;
+    min-height: 30px;
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: normal;
+    color: #EE0000;
+    position: relative;
+    margin-right: -124px;
+    margin-top: 79px;
+    left: 121px;
+}
+
+.topNavi {
+    z-index: 90;
+    min-height: 17px;
+    font-size: 14px;
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet, sans-serif;
+    color: #7E7E7E;
+    position: relative;
+    margin-right: -99px;
+    margin-top: 85px;
+    line-height: 0.8;
+}
+
+#t0
+{
+    left: 402px;
+}
+
+#t1
+{
+    left: 577px;
+}
+
+#t2
+{
+    left: 772px;
+}
+
+#t3
+{
+    left: 942px;
+}
+
+
+img {
+    vertical-align: top;
+}
+
+body
+{
+    padding-left: 120px;
+    padding-right: 120px;
+    border-width: 0; 
+}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,
+button,textarea,p,blockquote,th,td,a
+{
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+#loading {
+    position: relative;
+    top: 150px;
+    z-index: 50;
+}
+
+.top p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top p a:hover {
+    text-decoration: none;
+    color: #3F3F3F;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,img
+{
+    border: 0;
+}
+
+address,caption,cite,dfn,em,strong,th,var,optgroup
+{
+    font-style: inherit;
+    font-weight: inherit;
+    color: #EE0000;
+}
+
+unem {
+    font-style: inherit;
+    font-weight: inherit;
+    color: #7F7F7F;
+}
+code {
+    font-style: inherit;
+    font-weight: inherit;
+    color: #3F3F3F;
+    margin: 20px;
+    background-color: #F7F7F7;
+    font-family: monospace;
+}
+
+p.code {
+    font-style: inherit;
+    font-weight: inherit;
+    color: #3F3F3F;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 1.8em;
+    border: 1px dashed #3F3F3F;
+    background-color: #F7F7F7;
+    font-family: monospace;
+}
+
+del,ins
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+caption,th
+{
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: normal;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    text-indent: 1.8em;
+    color: #EE0000;
+}
+
+h1 {
+    margin-top: 64px;
+}
+
+input,button,textarea,select,optgroup,option
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+body
+{
+    font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.8;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility;/* kerning, primarily */
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    body { text-rendering:auto; }
+}
+
+.TabbedPanelsTab
+{
+    white-space: nowrap;
+}
+
+.MenuBar  .MenuBarView, .MenuBar  .SubMenuView /* Resets for ul and li in menus */
+{
+    display: block;
+    list-style: none;
+}
+
+.MenuBar .SubMenu
+{
+    display: none;
+    position: absolute;
+}
+
+.NoWrap
+{
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.MenuBar .MenuItemContainer
+{
+    position: relative;
+}
+
+.rootelem /* the root of the artwork tree */
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colelem /* a child element of a column */
+{
+    display: inline;
+    float: left;
+    clear: both;
+}
+
+.top /* a child element of a group */
+{
+    display: inline;
+    float: left;
+}
+
+span.hidden {
+    display: hidden;
+    overflow: hidden;
+}
+
+.clean:after /* force a container to fit around floated items */
+{
+    content: "\0020";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+*:first-child+html .clean /* IE7 */
+{
+    zoom: 1;
+}
+
+.inclusion_context /* context for positioning a group of elements that share the same height */
+{
+    display: table;
+    table-layout: fixed;
+    width: 0.01px;
+}
+
+.inclelem /* element of an inclusion context */
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.f3s_mid /* 3-slice frame, middle slice */
+{
+    background-repeat: repeat;
+}
+
+.f3s_top, .f3s_bot /* 3-slice frame, top slice */
+{
+    background-repeat: no-repeat;
+}
+
+.f9s_top_left, .f9s_bot_left /* 9-slice frame, left corner slice */
+{
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.f9s_top_right, .f9s_bot_right /* 9-slice frame, right corner slice */
+{
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.f9s_top_mid, .f9s_bot_mid /* 9-slice frame, top/bottom horizontal slice */
+{
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+}
+
+.f9s_mid_left /* 9-slice frame, left vertical slice */
+{
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.f9s_mid_right /* 9-slice frame, right vertical slice */
+{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.f9s_center /* 9-slice frame, center slice */
+{
+    background-repeat: repeat;
+    background-position: 0px 0px;
+}
+
+.popup_anchor /* anchors an abspos popup */
+{
+    position: relative;
+    width: 0px;
+    height: 0px;
+}
+
+.popup_element
+{
+    z-index: 100000;
+}
+
+.pointer_cursor
+{
+    cursor: pointer;
+}
+
+span.wrap /* used to force wrap after floated array when nested inside a paragraph */
+{
+    content: '';
+    clear: left;
+    display: block;
+}
+
+span.actAsInlineDiv /* used to simulate a DIV with inline display when already nested inside a paragraph */
+{
+    display: inline-block;
+}
+
+.position_content, .excludeFromNormalFlow /* used when child content is larger than parent */
+{
+    float: left;
+}
+
+.preload_images /* used to preload images used in non-defaul states */
+{
+    position: absolute;
+    overflow: hidden;
+    left: -9999px;
+    top: -9999px;
+    height: 1px;
+    width: 1px;
+}
+
+preload /* used to specifiy the dimension of preload item */
+{
+    height: 1px;
+    width: 1px;
+}
+
+.animateStates
+{
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.anchor_item /* used to specify anchor properties */
+{
+    width: 22px;
+    height: 18px;
+}
+
+a.nontext /* used to override default properties of 'a' tag */
+{
+    text-decoration: none;
+    color: black;
+}
+
+.MenuBar .SubMenuVisible, .MenuBarVertical .SubMenuVisible, .MenuBar .SubMenu .SubMenuVisible, .popup_element.Active, span.actAsPara, .actAsDiv, a.nonblock.nontext
+{
+    display: block;
+}
+
+.popup_element.Inactive, .js .disn
+{
+    display: none;
+}
+
+.widget_invisible, .js .invi /* used to hide the widget before loaded */
+{
+    visibility: hidden;
+}
+
+
+/*
+ * slider effect
+ * 
+ * static: .scroll, .scrollContainer, .navigation, #slider
+ * panel -> section
+
+left out: .scrollButtons, ~.left, ~.right
+ */
+
+#slider {
+    margin: 0 auto;
+    position: relative;
+}
+
+.scroll {
+    overflow: auto;
+    position: relative; /* fix for IE to respect overflow */
+    clear: left;
+    /* background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom; */
+    background: #FFFFFF;
+}
+
+.scrollContainer div.panel {
+    padding: 20px;
+}
+
+
+img.manualthumb {
+    padding: 5px;
+    padding-bottom: 65px;
+}
+
+p.manualgallery {
+    text-align: center;
+}
