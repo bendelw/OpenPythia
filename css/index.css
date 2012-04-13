@@ -120,7 +120,7 @@ div.footer {
     left: -200px;
     
     padding-bottom: 3px;
-    margin-top: -65px;
+    margin-top: -60px;
 
     position: relative;
 
@@ -169,7 +169,7 @@ div.footer {
 #home_logo
 {
     z-index: 81;
-    width: 124px;
+    width: 150px;
     min-height: 30px;
     font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet, sans-serif;
     font-style: normal;

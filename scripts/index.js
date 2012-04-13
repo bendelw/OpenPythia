@@ -1,6 +1,6 @@
 var isInLittleMode = true;
 var slideTime = 300;
-var SPACE_KEEPER = '<div class="spaceKeeper" style="height: 140px; ' + 
+var SPACE_KEEPER = '<div class="spaceKeeper" style="height: 40px; ' + 
 'width: 1px; border: 0px solid white"></div>';
 
 var lastRessource = 'welcome';
@@ -45,14 +45,14 @@ $(document).ready(function() {
     
 
     
-    setHeadingTopNaviInitial();
+    //setHeadingTopNaviInitial();
     $('a.scrollMark').append('<span class="hidden"></span>');
     
-    
+    /*
     $(document).scroll(function(){
         goInLittleMode($(document).scrollTop());
     });
-    
+    */
     
     
     // slide effect
