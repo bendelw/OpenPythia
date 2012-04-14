@@ -164,6 +164,7 @@ div.footer {
     margin-bottom: 62px;
     position: fixed;
     top: 90px;
+    z-index: 2000;
 }
 
 #home_logo
@@ -569,6 +570,7 @@ left out: .scrollButtons, ~.left, ~.right
 #slider {
     margin: 0 auto;
     position: relative;
+    z-index: 200;
 }
 
 .scroll {
