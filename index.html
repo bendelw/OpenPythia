@@ -119,8 +119,44 @@
 							just want to try out OpenPythia as a software product have a 
 							look here: <a target="_blank" 
 							href="https://github.com/downloads/AndreasRothmann/OpenPythia/OpenPythia_.jar">download OpenPythia.jar</a>.-->
-                            
-                            
+
+
+                            <h1>Gist</h1>
+                            What do we have to do when starting using OpenPythia? Here's everthing wrapped up smootly.
+                            The step-by-step explanation will be up next.<br/>
+
+                            First you need the <hi>git source code</hi> from
+                            <p class="code">
+                                <a href="http://github.com/AndreasRothmann/OpenPythia.git" target="_blank">
+                                    http://github.com/AndreasRothmann/OpenPythia.git</a>
+                            </p>
+
+                            Having this in your IDE you need
+                            support from some of the JARs libraries from:
+                            <p class="code">
+                                <a href="http://www.jgoodies.com/downloads/libraries" target="_blank">
+                                    http://www.jgoodies.com/downloads/libraries</a><br/>
+                                <a href="http://poi.apache.org/download.html#POI-3.8" target="_blank">
+                                    http://poi.apache.org/download.html#POI-3.8</a>
+                            </p>
+
+                            You will need the JARs
+                            <hi>poi-*.jar, poi-ooxml-*.jar, poi-schemas-*.jar, jgoodies-forms-*.jar, jgoodies-common-*.jar</hi>
+                            as dependecies. Now your code is ready to compile and you can start <hi>PythiaMain</hi>.<br/><br/>
+
+                            Now you will be asked to provide the <hi>JDBC driver</hi>. You can download the latest here:
+                            <p class="code">
+                                <a href="http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html" target="_blank">
+                                    http://www.oracle.com/technetwork/database/enterprise-edition/jdbc-112010-090769.html
+                                </a>
+                            </p>
+
+                            In OpenPythia run the <hi>schema creation script</hi> to give OpenPythia privileges to
+                            access you Oracle database. Now you're ready to go. That's all. Next up: the step-by-step
+                            guide to get it running in <hi>Eclipse</hi> and <hi>NetBeans</hi>.
+
+
+
                             <h1>Get OpenPythia's source code started</h1>
                             Getting started with OpenPythia is easy. In three simple steps you are 
                             about to discover bottlenecks in your Oracle database. First we make our OS 
@@ -334,8 +370,8 @@
                                 Now we need some downloads. Navigate with your browser to 
 
                                 <p class="code">
-                                    <a href="http://www.jgoodies.com/downloads/libraries.html" target="_blank">
-                                        http://www.jgoodies.com/downloads/libraries.html
+                                    <a href="http://www.jgoodies.com/downloads/libraries" target="_blank">
+                                        http://www.jgoodies.com/downloads/libraries
                                     </a>
                                 </p>
 
@@ -354,8 +390,8 @@
                                 Now we need some Excel-speaking and -reading JARs as well. Go to 
 
                                 <p class="code">
-                                    <a href="http://poi.apache.org/download.html#POI-3.7" target="_blank">
-                                        http://poi.apache.org/download.html#POI-3.7
+                                    <a href="http://poi.apache.org/download.html#POI-3.8" target="_blank">
+                                        http://poi.apache.org/download.html#POI-3.8
                                     </a>
                                 </p>
 
@@ -399,8 +435,8 @@
                                 Now we need some downloads. Navigate with your browser to 
 
                                 <p class="code">
-                                    <a href="http://www.jgoodies.com/downloads/libraries.html" target="_blank">
-                                        http://www.jgoodies.com/downloads/libraries.html
+                                    <a href="http://www.jgoodies.com/downloads/libraries" target="_blank">
+                                        http://www.jgoodies.com/downloads/libraries
                                     </a>
                                 </p>
 
@@ -419,8 +455,8 @@
                                 Now we need some Office-compatible JARs as well. Go to 
 
                                 <p class="code">
-                                    <a href="http://poi.apache.org/download.html#POI-3.7" target="_blank">
-                                        http://poi.apache.org/download.html#POI-3.7
+                                    <a href="http://poi.apache.org/download.html#POI-3.8" target="_blank">
+                                        http://poi.apache.org/download.html#POI-3.8
                                     </a>
                                 </p>
 
@@ -446,9 +482,10 @@
 
                                 Back in our NetBeans go to the project's <hi>library</hi> section down 
                                 there, <hi>right click it, and select <em>Add JAR / Folder</em></hi>. 
-                                Now from the extracted content select <hi>each JAR in each root directory 
-                                </hi>. Do this for all three libraries. You should see all three JARs in 
-                                the project's libraries after this step. 
+                                Now from the extracted content select <hi>the JARs from each root directory
+                                </hi>. Doing this for all three directories and you will have <hi>poi-*.jar,
+                                poi-ooxml-*.jar, poi-schemas-*.jar, jgoodies-forms-*.jar, jgoodies-common-*.jar</hi>
+                                in your IDE. You should see all five JARs in the project's libraries after this step.
 
                                 <p class="manualgallery">
                                     <img lowsrc="image/loading.gif" src="image/manual/nb26.jpg" class="manualthumb" />
